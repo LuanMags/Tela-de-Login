@@ -1,0 +1,174 @@
+
+.login-container {
+    background-color: var(--card-bg);
+    width: 100%;
+    max-width: 420px;
+    border-radius: var(--border-radius);
+    border: 2px solid var(--primary-color);
+    border-top: 12px solid var(--primary-color);
+    border-bottom: 12px solid var(--primary-color);
+    box-shadow: var(--box-shadow);
+    padding: 0.7rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.login-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5px;
+}
+
+.login-container::after {
+    content: '';
+    position: absolute;
+    margin-top: 50.2rem;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5px;
+}
+
+.logo {
+width: 400px;
+height: 400px;
+display: block;
+position: relative;
+overflow: hidden;
+}
+
+h1 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: var(--text-primary);
+}
+.form-group {
+    margin-bottom: 1.5rem;
+    margin-top: 1.0rem;
+    position: relative;
+}
+
+#info {
+    font-weight: bold;
+}
+
+label {
+    display: flex;
+    margin-bottom: 0.5rem;
+    color: var(--text-primary);
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.input-group {
+    position: relative;
+}
+
+input {
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--input-bg);
+    border: 1px solid rgba(247, 247, 247, 0.1);
+    border-radius: var(--border-radius);
+    color: var(--text-primary);
+    font-size: 1rem;
+    transition: var(--transition);
+}
+input:focus {
+ outline: none;
+ border-color: var(--primary-color);
+ box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.2);
+}
+
+input::placeholder {
+    color: var(--text-secundary);
+    opacity: 0.7;
+}
+
+.recuperar-senha {
+    text-align: right;
+    font-weight: medium;
+    margin-top: 0.5rem;
+}
+
+.recuperar-senha a {
+    color: var(--text-primary);
+    font-size: 0.95rem;
+    text-decoration: underline;
+    transition: var(--transition);
+}
+
+.recuperar-senha a:hover {
+    color: var(--primary-color);
+}
+
+.options {
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+
+.lembrar-me {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.lembrar-me input{
+    width: auto;
+    margin-right: 0.5rem;
+    accent-color: var(--text-primary);
+}
+
+.lembrar-me label {
+    margin-bottom: 0;
+    font-size: 0.95rem;
+    cursor: pointer;
+}
+
+button {
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--bg-orange);
+    color: white;
+    border: none;
+    border-radius: var(--border-radius);
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+button:hover {
+    background-color: var(--bg-orange);
+    transform: translateY(-2px);
+}
+
+button:active {
+    transform: translateY(0);
+}
+
+.singup-link {
+    color: black; 
+}
+
+.singup-link a {
+    color: var(--input-bg);
+    text-decoration: underline;
+    font-weight: 600;
+    transition: var(--transition);
+}
+
+.singup-lin a:hover {
+    text-decoration: underline;
+}
