@@ -160,12 +160,15 @@ button:active {
 
 .singup-link {
     color: black; 
+    display: flex;
+    justify-content: center;
 }
 
 .singup-link a {
     color: var(--input-bg);
     text-decoration: underline;
     font-weight: 600;
+    margin-left: 0.3rem;
     transition: var(--transition);
 }
 
